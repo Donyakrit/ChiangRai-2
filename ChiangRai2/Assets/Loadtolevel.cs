@@ -10,15 +10,17 @@ public class Loadtolevel : MonoBehaviour
     public bool isStart;
     public Slider Loading2;
     public float Score;
-    public float currentVelocity = 0f;
+    public float currentVelocity;
     public float currentScore;
 
     public void Update()
     {
+        isStart = true;
         if (isStart)
         {
-            currentScore = Mathf.SmoothDamp(Loading2.value, Score, ref currentVelocity, 100 * Time.deltaTime + 0.7f);
             Loading2.value = currentScore;
+            currentScore = Mathf.SmoothDamp(Loading2.value, Score, ref currentVelocity, 100 * Time.deltaTime + 0.7f);
+            
 
 
 

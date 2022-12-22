@@ -47,4 +47,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes Pleng/OpenScene.unity
     guid: 1945349ce5a0869418888091f9d39975
+  - enabled: 1
+    path: Assets/Scenes Pleng/Loadingtolevel 1.unity
+    guid: 8483cce944d5c994c9fe4dbeacffdf13
   m_configObjects: {}

@@ -8,6 +8,7 @@ public class MainMenu : MonoBehaviour
     // Start is called before the first frame update
     public void BackMainMenu()
     {
-        SceneManager.LoadScene("Loadingtolevel1");
+        Time.timeScale = 1f;
+        SceneManager.LoadScene("Loadingtolevel 1");
     }
 }
