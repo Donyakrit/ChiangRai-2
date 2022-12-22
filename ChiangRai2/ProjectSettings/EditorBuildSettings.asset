@@ -15,10 +15,10 @@ EditorBuildSettings:
     path: Assets/Scenes Pleng/MainMenu.unity
     guid: 6fd53846a77888842b2bf9982ca126fe
   - enabled: 1
-    path: Assets/Scenes Pleng/Mountain.unity
+    path: Assets/Scenes Pleng/Mountain 2.unity
     guid: 3a500c36c9c09294f880ade735d8adbf
   - enabled: 1
-    path: Assets/Scenes Pleng/sand.unity
+    path: Assets/Scenes Pleng/desert.unity
     guid: 89b26390d8d60ff49aa6129e9d0e9187
   - enabled: 1
     path: Assets/scene-roriloty/demoscene_wildlands_bundle.unity
