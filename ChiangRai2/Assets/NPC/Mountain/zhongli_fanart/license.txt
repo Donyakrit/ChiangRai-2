@@ -1,0 +1,11 @@
+Model Information:
+* title:	Zhongli fanart
+* source:	https://sketchfab.com/3d-models/zhongli-fanart-981eb1b2a5a443129a935ac34c38107a
+* author:	blairarmitage (https://sketchfab.com/blairarmitage)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "Zhongli fanart" (https://sketchfab.com/3d-models/zhongli-fanart-981eb1b2a5a443129a935ac34c38107a) by blairarmitage (https://sketchfab.com/blairarmitage) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
