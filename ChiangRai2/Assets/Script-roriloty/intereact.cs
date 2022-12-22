@@ -69,7 +69,7 @@ public class intereact : MonoBehaviour
     void Exitintereact()
     {
         inintereact = false;
-        Ebutton.SetActive(true);
+        Ebutton.SetActive(false);
         Dialog_Box.SetActive(false);
     }
 
@@ -92,6 +92,6 @@ public class intereact : MonoBehaviour
 
     void Dosomething()
     {
-
+        QuestUpdater.QuestText = "Back to the Van";
     }
 }
