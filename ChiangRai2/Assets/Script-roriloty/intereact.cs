@@ -8,6 +8,7 @@ public class intereact : MonoBehaviour
 {
 
     public bool isinside;
+    public bool isimportance;
     public GameObject Ebutton;
     public GameObject Dialog_Box;
     public TMP_Text Dialog;
@@ -44,14 +45,15 @@ public class intereact : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-            isinside = true;
-            Ebutton.SetActive(true);
+        isinside = true;
+        Ebutton.SetActive(true);
     }
 
     private void OnTriggerExit(Collider collider)
     {
-            isinside = false;
-            Ebutton.SetActive(false);
+        isinside = false;
+        Ebutton.SetActive(false);
+        Exitintereact();
     }
 
     void Gotointereact()
@@ -67,7 +69,7 @@ public class intereact : MonoBehaviour
     void Exitintereact()
     {
         inintereact = false;
-        Ebutton.SetActive(true);
+        Ebutton.SetActive(false);
         Dialog_Box.SetActive(false);
     }
 
@@ -80,7 +82,16 @@ public class intereact : MonoBehaviour
         }
         else
         {
+            if(isimportance)
+            {
+                Dosomething();
+            }
             Exitintereact();
         }
+    }
+
+    void Dosomething()
+    {
+        QuestUpdater.QuestText = "Back to the Van";
     }
 }
