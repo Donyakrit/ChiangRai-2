@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class intereact : MonoBehaviour
+public class VanInteract : MonoBehaviour
 {
 
     public bool isinside;
@@ -12,6 +12,7 @@ public class intereact : MonoBehaviour
     public string ImportanceTask;
     public GameObject Ebutton;
     public GameObject Dialog_Box;
+    public GameObject DeviceCanva;
     public TMP_Text Dialog;
     public TMP_Text Name_Box;
     public string Name;
@@ -26,6 +27,7 @@ public class intereact : MonoBehaviour
         inintereact = false;
         Ebutton.SetActive(false);
         Dialog_Box.SetActive(false);
+        DeviceCanva.SetActive(false);
     }
 
     // Update is called once per frame
@@ -46,15 +48,21 @@ public class intereact : MonoBehaviour
 
     private void OnTriggerEnter(Collider collider)
     {
-        isinside = true;
-        Ebutton.SetActive(true);
+        if(QuestUpdater.QuestText == "Back to the Van")
+        {
+            isinside = true;
+            Ebutton.SetActive(true);
+        }
     }
 
     private void OnTriggerExit(Collider collider)
     {
-        isinside = false;
-        Ebutton.SetActive(false);
-        Exitintereact();
+        if (QuestUpdater.QuestText == "Back to the Van")
+        {
+            isinside = false;
+            Ebutton.SetActive(false);
+            Exitintereact();
+        }
     }
 
     void Gotointereact()
@@ -94,6 +102,7 @@ public class intereact : MonoBehaviour
             {
                 Dosomething();
             }
+            DeviceCanva.SetActive(true);
             Exitintereact();
         }
     }
@@ -101,6 +110,5 @@ public class intereact : MonoBehaviour
     void Dosomething()
     {
         QuestUpdater.QuestText = ImportanceTask;
-        QuestUpdater.DeviceRequire = "Water Wheel";
     }
 }
