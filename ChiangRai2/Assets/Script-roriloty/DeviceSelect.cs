@@ -60,6 +60,7 @@ public class DeviceSelect : MonoBehaviour
     {
         if(SolarCorrect)
         {
+            VarHolder.Map1Clear = true;
             Correct();
         }
         else
@@ -72,6 +73,7 @@ public class DeviceSelect : MonoBehaviour
     {
         if (WindCorrect)
         {
+            VarHolder.Map3Clear = true;
             Correct();
         }
         else
@@ -84,6 +86,7 @@ public class DeviceSelect : MonoBehaviour
     {
         if (WaterCorrect)
         {
+            VarHolder.Map2Clear = true;
             Correct();
         }
         else
@@ -96,6 +99,7 @@ public class DeviceSelect : MonoBehaviour
     {
         if (ThermoCorrect)
         {
+            VarHolder.Map4Clear = true;
             Correct();
         }
         else
