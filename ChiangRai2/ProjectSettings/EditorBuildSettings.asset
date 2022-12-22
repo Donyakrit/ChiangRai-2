@@ -24,6 +24,9 @@ EditorBuildSettings:
     path: Assets/scene-roriloty/demoscene_wildlands_bundle.unity
     guid: c21d9068e971aef47b439214eee73aec
   - enabled: 1
+    path: Assets/Scenes Pleng/Loadingtolevel.unity
+    guid: 964afcaa1b3daf74b8ae341ee525338c
+  - enabled: 1
     path: Assets/scene-roriloty/LevelSelect.unity
     guid: 2121cbc43bf4c2e42a725f078a53b2be
   - enabled: 1
@@ -41,4 +44,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes Pleng/fountain.unity
     guid: 7460752392875454d9c66aebf7d2af40
+  - enabled: 1
+    path: Assets/Scenes Pleng/OpenScene.unity
+    guid: 1945349ce5a0869418888091f9d39975
   m_configObjects: {}

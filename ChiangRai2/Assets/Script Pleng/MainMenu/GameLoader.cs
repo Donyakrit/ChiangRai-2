@@ -7,6 +7,6 @@ public class GameLoader : MonoBehaviour
 {
     public void GameScene()
     {
-        SceneManager.LoadScene("LevelSelect");
+        SceneManager.LoadScene("OpenScene");
     }
 }
