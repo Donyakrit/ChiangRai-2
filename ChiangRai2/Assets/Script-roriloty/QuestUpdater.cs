@@ -18,5 +18,40 @@ public class QuestUpdater : MonoBehaviour
     void Update()
     {
         QuestTextObject.text = QuestText;
+        if(DeviceRequire == "Solar Cell")
+        {
+            DeviceSelect.SolarCorrect = true;
+        }
+        else
+        {
+            DeviceSelect.SolarCorrect = false;
+        }
+
+        if (DeviceRequire == "Water Turbine")
+        {
+            DeviceSelect.WaterCorrect = true;
+        }
+        else
+        {
+            DeviceSelect.WaterCorrect = false;
+        }
+
+        if (DeviceRequire == "Wind Turbine")
+        {
+            DeviceSelect.WindCorrect = true;
+        }
+        else
+        {
+            DeviceSelect.WindCorrect = false;
+        }
+
+        if (DeviceRequire == "Geothermal")
+        {
+            DeviceSelect.ThermoCorrect = true;
+        }
+        else
+        {
+            DeviceSelect.ThermoCorrect = false;
+        }
     }
 }

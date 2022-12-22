@@ -10,6 +10,7 @@ public class intereact : MonoBehaviour
     public bool isinside;
     public bool isimportance;
     public string ImportanceTask;
+    public string DeviceToBring;
     public GameObject Ebutton;
     public GameObject Dialog_Box;
     public TMP_Text Dialog;
@@ -101,6 +102,6 @@ public class intereact : MonoBehaviour
     void Dosomething()
     {
         QuestUpdater.QuestText = ImportanceTask;
-        QuestUpdater.DeviceRequire = "Water Wheel";
+        QuestUpdater.DeviceRequire = DeviceToBring;
     }
 }
