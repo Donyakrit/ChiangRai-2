@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CheckMarkAndEndTrigger : MonoBehaviour
 {
@@ -51,6 +52,11 @@ public class CheckMarkAndEndTrigger : MonoBehaviour
         else
         {
             Check4.SetActive(false);
+        }
+
+        if(VarHolder.Map1Clear && VarHolder.Map2Clear && VarHolder.Map3Clear && VarHolder.Map4Clear)
+        {
+            SceneManager.LoadScene("EndScene");
         }
     }
 }
