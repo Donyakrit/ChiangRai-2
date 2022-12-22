@@ -19,21 +19,21 @@ public class sceneLoader : MonoBehaviour
 
     public void loadmap1()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Loadingtomap1");
     }
 
     public void loadmap2()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Loadingtomap2");
     }
 
     public void loadmap3()
     {
-        SceneManager.LoadScene("demoscene_wildlands_bundle");
+        SceneManager.LoadScene("Loadingtomap3");
     }
 
     public void loadmap4()
     {
-        SceneManager.LoadScene("");
+        SceneManager.LoadScene("Loadingtomap4");
     }
 }
