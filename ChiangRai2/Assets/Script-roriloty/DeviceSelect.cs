@@ -17,11 +17,13 @@ public class DeviceSelect : MonoBehaviour
     public GameObject ShowCamera;
     public GameObject DeviceToSetActive;
     public GameObject DeviceCanva;
-    bool StartCount = false;
-    float CurrentTime = 3f;
+    bool StartCount;
+    float CurrentTime;
     // Start is called before the first frame update
     void Start()
     {
+        CurrentTime = 3f;
+        StartCount = false;
         DeviceToSetActive.SetActive(false);
         IncorrctSolarCanvas.SetActive(false);
         IncorrctWindCanvas.SetActive(false);
@@ -35,9 +37,10 @@ public class DeviceSelect : MonoBehaviour
         if(StartCount)
         {
             CurrentTime -= Time.deltaTime;
+            Debug.Log(CurrentTime);
         }
 
-        if(CurrentTime <= 0)
+        if(CurrentTime <= 0f)
         {
             SceneManager.LoadScene("LevelSelect");
         }
