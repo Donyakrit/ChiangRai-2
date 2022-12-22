@@ -4,5 +4,23 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes Pleng/GamePlay.unity
+    guid: a9eef33c6846ee649b2e5cb7d0bff7d4
+  - enabled: 1
+    path: Assets/Scenes Pleng/Loading.unity
+    guid: 1efd1627d2286f84fb0d3e9a052ec8ba
+  - enabled: 1
+    path: Assets/Scenes Pleng/MainMenu.unity
+    guid: 6fd53846a77888842b2bf9982ca126fe
+  - enabled: 1
+    path: Assets/Scenes Pleng/Mountain.unity
+    guid: 3a500c36c9c09294f880ade735d8adbf
+  - enabled: 1
+    path: Assets/Scenes Pleng/sand.unity
+    guid: 89b26390d8d60ff49aa6129e9d0e9187
+  - enabled: 1
+    path: Assets/scene-roriloty/demoscene_wildlands_bundle.unity
+    guid: c21d9068e971aef47b439214eee73aec
   m_configObjects: {}

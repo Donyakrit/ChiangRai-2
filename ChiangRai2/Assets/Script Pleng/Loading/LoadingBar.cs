@@ -25,7 +25,7 @@ public class LoadingBar : MonoBehaviour
         }
         if (currentScore >= 99.8f)
         {
-            SceneManager.LoadScene("Level1");
+            SceneManager.LoadScene("Demoscene_wildlands_bundle");
         }
 
 
