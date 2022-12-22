@@ -9,6 +9,7 @@ public class intereact : MonoBehaviour
 
     public bool isinside;
     public bool isimportance;
+    public string ImportanceTask;
     public GameObject Ebutton;
     public GameObject Dialog_Box;
     public TMP_Text Dialog;
@@ -69,7 +70,14 @@ public class intereact : MonoBehaviour
     void Exitintereact()
     {
         inintereact = false;
-        Ebutton.SetActive(false);
+        if (isinside)
+        {
+            Ebutton.SetActive(true);
+        }
+        else
+        {
+            Ebutton.SetActive(false);
+        }
         Dialog_Box.SetActive(false);
     }
 
@@ -92,6 +100,7 @@ public class intereact : MonoBehaviour
 
     void Dosomething()
     {
-        QuestUpdater.QuestText = "Back to the Van";
+        QuestUpdater.QuestText = ImportanceTask;
+        QuestUpdater.DeviceRequire = "Water Wheel";
     }
 }

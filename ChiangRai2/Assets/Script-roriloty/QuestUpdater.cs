@@ -6,6 +6,7 @@ using TMPro;
 public class QuestUpdater : MonoBehaviour
 {
     public static string QuestText = "Find Clue";
+    public static string DeviceRequire = "Solar Cell";
     public TMP_Text QuestTextObject;
     // Start is called before the first frame update
     void Start()
