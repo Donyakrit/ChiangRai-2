@@ -11,9 +11,10 @@ public class PlayerController2 : MonoBehaviour
     private float jumpHeight = 1.0f;
     private float gravityValue = -9.81f;
 
-
+    private Animator animator;
     private void Start()
     {
+        animator = GetComponent<Animator>();
         controller = gameObject.GetComponent<CharacterController>();
     }
 
@@ -33,6 +34,11 @@ public class PlayerController2 : MonoBehaviour
         if (move != Vector3.zero)
         {
             gameObject.transform.forward = move;
+            animator.SetBool("isMoving",true);
+        }
+        else
+        {
+            animator.SetBool("isMoving", false);
         }
 
         // Changes the height position of the player..
@@ -46,11 +52,11 @@ public class PlayerController2 : MonoBehaviour
 
         if (move.x * move.x > 0.2f | move.z * move.z > 0.2f)
         {
-            animator.SetBool("is_walk", true);
+            //animator.SetBool("is_walk", true);
         }
         else
         {
-            animator.SetBool("is_walk", false);
+            //animator.SetBool("is_walk", false);
         }
     }
 }
