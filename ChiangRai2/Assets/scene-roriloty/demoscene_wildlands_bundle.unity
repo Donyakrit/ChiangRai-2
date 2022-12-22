@@ -2485,7 +2485,7 @@ MonoBehaviour:
   MainCamera: {fileID: 1049045607}
   ShowCamera: {fileID: 307850622}
   DeviceToSetActive: {fileID: 8350315348771248126}
-  DeviceCanva: {fileID: 0}
+  DeviceCanva: {fileID: 102866500}
 --- !u!1001 &104476991
 PrefabInstance:
   m_ObjectHideFlags: 0
