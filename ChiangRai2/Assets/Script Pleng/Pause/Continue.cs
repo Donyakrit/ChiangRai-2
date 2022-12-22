@@ -9,5 +9,6 @@ public class Continue : MonoBehaviour
     {
         screen.SetActive(false);
         Time.timeScale = 1.0f;
+        EscFn.Pause = false;
     }
 }
