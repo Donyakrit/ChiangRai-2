@@ -19,6 +19,8 @@ public class DeviceSelect : MonoBehaviour
     public GameObject DeviceCanva;
     bool StartCount;
     float CurrentTime;
+    public AudioSource wrongSound;
+    public AudioSource correctSound;
     // Start is called before the first frame update
     void Start()
     {
@@ -62,10 +64,12 @@ public class DeviceSelect : MonoBehaviour
         {
             VarHolder.Map1Clear = true;
             Correct();
+            correctSound.Play();
         }
         else
         {
             IncorrctSolarCanvas.SetActive(true);
+            wrongSound.Play();
         }
     }
 
@@ -75,10 +79,12 @@ public class DeviceSelect : MonoBehaviour
         {
             VarHolder.Map3Clear = true;
             Correct();
+            correctSound.Play();
         }
         else
         {
             IncorrctWindCanvas.SetActive(true);
+            wrongSound.Play();
         }
     }
 
@@ -88,10 +94,12 @@ public class DeviceSelect : MonoBehaviour
         {
             VarHolder.Map2Clear = true;
             Correct();
+            correctSound.Play();
         }
         else
         {
             IncorrctWaterCanvas.SetActive(true);
+            wrongSound.Play();
         }
     }
 
@@ -101,10 +109,12 @@ public class DeviceSelect : MonoBehaviour
         {
             VarHolder.Map4Clear = true;
             Correct();
+            correctSound.Play();
         }
         else
         {
             IncorrctThermoCanvas.SetActive(true);
+            wrongSound.Play();
         }
     }
 }
