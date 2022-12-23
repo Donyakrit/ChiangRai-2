@@ -780,7 +780,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2921960160190796210, guid: 61bbba59f3c5b3842b18fdd298cb74c9, type: 3}
       propertyPath: playerSpeed
-      value: 10
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 2921960160190796213, guid: 61bbba59f3c5b3842b18fdd298cb74c9, type: 3}
       propertyPath: m_Radius
