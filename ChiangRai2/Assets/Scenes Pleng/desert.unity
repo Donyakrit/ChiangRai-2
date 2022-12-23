@@ -8759,7 +8759,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 6f22c2b8f9e14c44f825a0b3aa4c6483, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 0b3f7be389a0c0e4c98a8cc723b1d86f, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.3
   m_Pitch: 1
@@ -17229,7 +17229,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5924940468533287992, guid: e57cfc76d398361478c18a1afa9dd1d5, type: 3}
       propertyPath: line.Array.data[1]
-      value: Wait, with this tempertaure...
+      value: Wait, with this temperature...
       objectReference: {fileID: 0}
     - target: {fileID: 5924940468533287992, guid: e57cfc76d398361478c18a1afa9dd1d5, type: 3}
       propertyPath: line.Array.data[2]
@@ -22929,7 +22929,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &860953240
 AudioListener:
   m_ObjectHideFlags: 0

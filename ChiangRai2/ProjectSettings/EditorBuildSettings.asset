@@ -5,15 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes Pleng/GamePlay.unity
     guid: a9eef33c6846ee649b2e5cb7d0bff7d4
   - enabled: 1
-    path: Assets/Scenes Pleng/Loading.unity
-    guid: 1efd1627d2286f84fb0d3e9a052ec8ba
-  - enabled: 1
     path: Assets/Scenes Pleng/MainMenu.unity
     guid: 6fd53846a77888842b2bf9982ca126fe
+  - enabled: 1
+    path: Assets/Scenes Pleng/Loading.unity
+    guid: 1efd1627d2286f84fb0d3e9a052ec8ba
   - enabled: 1
     path: Assets/Scenes Pleng/Mountain_3.unity
     guid: 3a500c36c9c09294f880ade735d8adbf
@@ -29,9 +29,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/scene-roriloty/LevelSelect.unity
     guid: 2121cbc43bf4c2e42a725f078a53b2be
-  - enabled: 1
-    path: Assets/Scenes Pleng/desert 1.unity
-    guid: a2131d2c582ff6c46ae25bdfa0bb7b4c
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes Pleng/Loadingtomap1.unity
     guid: f992faf9ad01fa74883973de09a07f2e
