@@ -50,4 +50,10 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes Pleng/Loadingtolevel 1.unity
     guid: 8483cce944d5c994c9fe4dbeacffdf13
+  - enabled: 1
+    path: Assets/Scenes Pleng/Loadtomain.unity
+    guid: eacc28b4b295ce841859eddf034f6f33
+  - enabled: 1
+    path: Assets/Scenes Pleng/EndScene.unity
+    guid: 8ea7225c0ad69574583a2c401289b8b6
   m_configObjects: {}
