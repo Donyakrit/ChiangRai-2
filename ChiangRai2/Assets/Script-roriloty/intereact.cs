@@ -19,6 +19,7 @@ public class intereact : MonoBehaviour
     public bool inintereact;
     public int index;
     public string[] line = { "Hello World" , "Bye" };
+    public AudioSource dialogAudio;
 
     // Start is called before the first frame update
     void Start()
@@ -84,10 +85,12 @@ public class intereact : MonoBehaviour
 
     void GotoNextLine()
     {
+        dialogAudio.Play();
         index++;
         if(line.Length > index)
         {
             Dialog.text = line[index];
+            
         }
         else
         {
