@@ -35,6 +35,7 @@ public class intereact : MonoBehaviour
     {
         if(Input.GetKeyDown(KeyCode.E) && isinside)
         {
+            dialogAudio.Play();
             if (inintereact)
             {
                 GotoNextLine();
@@ -85,7 +86,6 @@ public class intereact : MonoBehaviour
 
     void GotoNextLine()
     {
-        dialogAudio.Play();
         index++;
         if(line.Length > index)
         {
