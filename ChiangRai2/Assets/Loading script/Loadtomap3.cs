@@ -25,7 +25,7 @@ public class Loadtomap3 : MonoBehaviour
         }
         if (currentScore >= 99.8f)
         {
-            SceneManager.LoadScene("Mountain 2");
+            SceneManager.LoadScene("Mountain_3");
         }
 
 

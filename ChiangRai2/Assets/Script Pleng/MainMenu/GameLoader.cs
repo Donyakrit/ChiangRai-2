@@ -7,6 +7,10 @@ public class GameLoader : MonoBehaviour
 {
     public void GameScene()
     {
+        VarHolder.Map1Clear = false;
+        VarHolder.Map2Clear = false;
+        VarHolder.Map3Clear = false;
+        VarHolder.Map4Clear = false;
         SceneManager.LoadScene("OpenScene");
     }
 }

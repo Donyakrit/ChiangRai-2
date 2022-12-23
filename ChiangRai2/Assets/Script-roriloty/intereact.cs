@@ -28,6 +28,7 @@ public class intereact : MonoBehaviour
         inintereact = false;
         Ebutton.SetActive(false);
         Dialog_Box.SetActive(false);
+        QuestUpdater.QuestText = "Find Clue";
     }
 
     // Update is called once per frame
